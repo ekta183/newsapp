@@ -34,7 +34,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="general"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="general"
                 />
               }
@@ -46,7 +46,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="business"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="business"
                 />
               }
@@ -58,7 +58,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="entertainment"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="entertainment"
                 />
               }
@@ -70,7 +70,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="general"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="general"
                 />
               }
@@ -82,7 +82,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="health"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="health"
                 />
               }
@@ -94,7 +94,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="science"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="science"
                 />
               }
@@ -106,7 +106,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="sports"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="sports"
                 />
               }
@@ -118,7 +118,7 @@ export default class App extends Component {
                 <News setProgress={this.setProgress}
                   key="technology"
                   pageSize={15}
-                  country="in"
+                  country="us"
                   category="technology"
                 />
               }
@@ -129,3 +129,5 @@ export default class App extends Component {
     );
   }
 }
+
+
